@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    margin: 0 auto;
+}
+.Cabecera{
+    height: 140px;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.925);
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+}
+.Menu{/*Div para el menu*/
+    display: flex;
+    align-items: center;
+    width: 910px;
+}
+.menu{/*Lista para el menu*/
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    width: 500px;
+    margin-left: 60px;
+    margin-right: 30px;
+}
+.menu li a{/*Hipervinculos de la lista*/
+  text-decoration: none;
+  color: white;
+  display: block;
+  padding: 25px;
+  text-align: center;
+  max-width:100%;
+}
+.menu li{
+  display: inline-block;
+  text-align:center;
+  width: 100%;
+}
+.menu li a:hover{
+  color: black;
+  background-color: #eaeaea;
+}
+.menu2{/*Boton azul*/
+    margin-right: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 170px;
+    padding: 2px;
+    background-color: #242fd4;
+    border-radius: 5px;
+    box-shadow: 2px 4px 5px #999;
+}
+.menu2 a{/*Decoracion del hipervinculo boton azul*/
+  text-decoration: none;
+}
+.menu2:hover{
+    opacity: 0.6;
+}

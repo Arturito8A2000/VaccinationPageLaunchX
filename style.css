@@ -1,0 +1,34 @@
+h2{ /*Letra menu*/
+    font-family: 'League Spartan', sans-serif;
+    color: rgb(119, 119, 119);
+    text-align: center;
+    letter-spacing:1px;
+    font-size: 2vw; /* Browsers that do not support "MIN () - MAX ()" and "Clamp ()" functions will take this value.*/
+    font-size: max(15px, min(1.5vw, 70px)); /* Browsers that do not support the "clamp ()" function will take this value. */
+}
+
+h3{ /*Letra logo*/
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(43, 26, 121);
+    font-size: 8vw; /* Browsers that do not support "MIN () - MAX ()" and "Clamp ()" functions will take this value.*/
+    font-size: max(15px, min(8vw, 65px)); /* Browsers that do not support the "clamp ()" function will take this value. */
+}
+
+h4{ /*Letra boton*/
+    font-family: 'League Spartan', sans-serif;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 2vw; /* Browsers that do not support "MIN () - MAX ()" and "Clamp ()" functions will take this value.*/
+    font-size: max(15px, min(1.4vw, 70px)); /* Browsers that do not support the "clamp ()" function will take this value. */
+}
+
+p{
+    font-family: 'League Spartan', sans-serif;
+    color: rgb(119, 119, 119);
+    letter-spacing:1px;
+    line-height: 35px;
+    font-size: 3vw; /* Browsers that do not support "MIN () - MAX ()" and "Clamp ()" functions will take this value.*/
+    font-size: max(15px, min(3vw, 20px)); /* Browsers that do not support the "clamp ()" function will take this value. */
+}
